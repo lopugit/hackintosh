@@ -1,0 +1,24 @@
+{
+  "name": "hackintosh",
+  "version": "1.0.0",
+  "description": "* cp -rf /Volumes/{the name of your install media}/Install\\ macOS\\ {your OS Version}.app/Contents/SharedResources/* /Volumes/{your target installation volume}/macOS\\ install\\ data/\r * Thank you so much everyone! Expecially @Ylx ! I spent several days trying to get High Sierra on my new Hackintosh. The ./startosinstall didn't work after several attempts. So I tried Ylx's method. It took me a while to figure out his instructions but once I did, install went flawlessly. If you are total noob like me, here is what I did step by step(as best as I can remember).\r * Follow High Sierra fresh install guide to create USB boot drive\r * Insert and boot from USB\r * Run \"Install macOS High Sierra\" on clover screen\r * Again following the guide- format drive, Install OS, Select langue, Select drive...\r * system will restart.\r * Once back in clover select \"High Sierra\" drive\r * Once you reach the \"Could not install MacOS\" screen open \"terminal\" under \"Utilities\" in the top banner\r * Run Ylx's command...and wait for it to complete. Took about 5 min. for me\r * Restart\r * On clover screen select Restart\r * I restarted a gain for good measure\r * On clover screen select \"High Sierra\"\r * System will restart again, select \"High Sierra\"\r * I believe this is when the installation completed for me. Yay!",
+  "main": "index.js",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"commit": "git add . ; git commit -m 'ready'",
+    "push": "npm run commit ; git push origin HEAD",
+    "pull": "git pull origin HEAD",
+    "everything": "npm run push ; npm version patch ; npm publish ; npm run push"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopugit/hackintosh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopugit/hackintosh/issues"
+  },
+  "homepage": "https://github.com/lopugit/hackintosh#readme"
+}

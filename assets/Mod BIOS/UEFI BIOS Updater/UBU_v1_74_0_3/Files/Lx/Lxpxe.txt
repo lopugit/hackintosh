@@ -1,0 +1,8 @@
+# DO NOT REMOVE THIS FILE!!!
+# Supported Device ID List Boot Agent QCA (Rivet)
+# Pattern Device ID
+9010 1090
+9110 1091
+A010 10A0
+A110 10A1
+91E0 E091
