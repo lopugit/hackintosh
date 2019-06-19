@@ -33,3 +33,8 @@
 * On clover screen select "High Sierra"
 * System will restart again, select "High Sierra"
 * I believe this is when the installation completed for me. Yay!
+
+
+#### POST INSTALL
+
+#### Multi GPU Driver Install bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh) 378.10.10.10.25.106
