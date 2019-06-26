@@ -37,4 +37,4 @@
 
 #### POST INSTALL
 
-#### Multi GPU Driver Install bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh) 378.10.10.10.25.106
+#### Multi GPU Driver Install ```bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh) 378.10.10.10.25.106```
